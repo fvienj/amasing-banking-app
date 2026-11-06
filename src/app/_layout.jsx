@@ -11,7 +11,6 @@ export default function RootLayout() {
         <Stack.Screen name="login" />
         <Stack.Screen name="register" />
         <Stack.Screen name="otp" />
-        <Stack.Screen name="complete-profile" />
 
         <Stack.Screen
           name="details/[id]"
