@@ -45,7 +45,12 @@ export default function RegisterScreen() {
 
       router.push({
         pathname: "/otp",
-        params: { mode: "register", phone: phoneDigits },
+        params: {
+          mode: "register",
+          phone: phoneDigits,
+          otp: data.otp,
+          otpRef: data.otpRef,
+        },
       });
     } catch (err) {
       Alert.alert(
